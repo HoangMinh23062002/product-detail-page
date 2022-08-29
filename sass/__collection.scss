@@ -1,0 +1,23 @@
+.product-collection{
+    &-title{
+        & .product-title-name{
+            text-align: center;
+            font-size: 36px;
+            margin: 74px 0 28px 0;
+            line-height: 42.19px;
+        }
+    }
+    &-images{
+        .product-item-image{
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin: 14px 0 70px 0;
+            img{
+                margin: 0 5.5px 0 5.5px;
+                width: 585px;
+                height: 247px;
+            }
+        }
+    }
+}

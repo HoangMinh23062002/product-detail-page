@@ -1,0 +1,74 @@
+.footer {
+    position: relative;
+  &-schedule {
+    font-size: 12px;
+    height: 60px;
+    line-height: 14.4px;
+    display: flex;
+    color: #ffffff;
+    background-color: #00344c;
+    padding: 8px 0 24px 0;
+    &-timeworking {
+      width: 400px;
+    }
+    &-phonenumber {
+      display: flex;
+      h3 {
+        line-height: 14.4px;
+        height: 40px;
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 13px 20.5px;
+        margin: 2px 0 10px 0;
+        i {
+          width: 16px;
+          height: 16px;
+          margin-right: 16px;
+        }
+      }
+    }
+    & .spacing {
+      letter-spacing: 5%;
+      margin: 0 16px;
+    }
+  }
+  &-contact{
+    height:  258px;
+    background-color: #B69046;
+    .footer-contact-icon{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding: 64px 0 34px 0;
+        & .fa-brands{
+           
+            color: white;
+            padding: 0 24px;
+        }
+        &-one i{
+        width: 30px;
+        
+          height: 30px;  
+        }
+    }
+  }
+  &-menu{
+    &-nav{
+      display: flex;
+      font-size: 14px;
+      line-height: 21px;
+      font-weight: 400;
+      & .footer-nav-item a{
+        color:#fff;
+        margin: 0 25px;
+      }
+    }
+  }
+  &-copy-infor{
+text-align: center; 
+margin-top: 61px;
+line-height:16.34px;
+font-size: 13px;
+color: #fff;
+}
+}
