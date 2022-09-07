@@ -3,10 +3,11 @@
     font-size: 36px;
     text-align: center;
     line-height: 42.19px;
-    margin: 53px 0 -14px 0;
+    margin: 96px 0 -14px 0;
   }
   &-images {
     display: flex;
+    flex-wrap: wrap;
     &-content-first {
         margin-right: 7.5px;
         text-align: center;
@@ -68,5 +69,10 @@
         line-height: 18px;
     }
   }
+}
+}
+@media only screen and (max-width: 1231px) {
+.product-accessories-images-content-first {
+  margin-bottom: 20px;
 }
 }
